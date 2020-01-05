@@ -1,0 +1,51 @@
+ol {
+	border: red 2px solid;
+	list-style-type:lower-alpha
+}
+
+ol ol {
+	border: orange 2px solid;
+	list-style-type:lower-roman
+}
+
+ol ol ol {
+	border: yellow 2px solid;
+	list-style-type:Decimal
+}
+
+ol ol ol ol {
+	border: green 2px solid;
+	list-style-type:lower-alpha
+}
+
+ol ol ol ol ol {
+	border: blue 2px solid;
+	list-style-type:lower-roman
+}
+
+ol ol ol ol ol ol {
+	border: purple 2px solid;
+}
+
+ol ol ol ol ol ol ol {
+	border: pink 2px solid;
+}
+
+ol ol ol ol ol ol ol ol {
+	border: grey 2px solid;
+}
+
+.test {
+	list-style-type:Decimal;
+	background: red;
+}
+
+.test li li{
+	list-style-type:lower-alpha;
+	background: green;
+}
+
+.test li li li {
+	list-style-type:lower-roman;
+	background: blue;	
+}
